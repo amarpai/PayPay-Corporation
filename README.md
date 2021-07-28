@@ -31,7 +31,6 @@ GET http://localhost:5000/api/v1/employee/employeeID  (employeeID eg: MongoEmplo
 
 Postman Collection Export: https://www.getpostman.com/collections/b24961b21ddfcb90b5be
 
-Reference:
 ![image](https://user-images.githubusercontent.com/10544557/127397503-cdc70888-6066-4e77-9304-7227d8216861.png)
 
 
