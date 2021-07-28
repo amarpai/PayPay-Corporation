@@ -7,6 +7,7 @@ export class CreateEmployeeDTO {
   readonly rating: number;
   readonly country: string;
   readonly department: [string];
+  readonly photo: string;
   readonly review_request: [number];
   readonly review_comments: [{ name: string; employee_id: Number; rating: Number, comment: string }];
 }

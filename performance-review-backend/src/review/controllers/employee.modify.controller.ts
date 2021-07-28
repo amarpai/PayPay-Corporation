@@ -2,7 +2,7 @@ import { Controller, Res, HttpStatus, Post, Body } from '@nestjs/common';
 import { EmployeeService } from '../services/employee.service';
 import { CreateEmployeeDTO } from '../dto/create-employee.dto';
 
-@Controller('api/v1/performance/review')
+@Controller('api/v1/employee')
 export class EmployeeModifyController {
   constructor(private employeeService: EmployeeService) {}
 

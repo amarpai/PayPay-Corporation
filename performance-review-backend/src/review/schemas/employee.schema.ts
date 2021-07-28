@@ -1,14 +1,14 @@
 /* eslint-disable prettier/prettier */
-import * as mongoose from 'mongoose';
+import * as mongoose from "mongoose";
 
 // Validation on Rating for Employee from 1 to 5 based on Performance.
 const min = [
   1,
-  'The value of path `{PATH}` ({VALUE}) is beneath the limit ({MIN}).',
+  "The value of path `{PATH}` ({VALUE}) is beneath the limit ({MIN}).",
 ];
 const max = [
   5,
-  'The value of path `{PATH}` ({VALUE}) exceeds the limit ({MAX}).',
+  "The value of path `{PATH}` ({VALUE}) exceeds the limit ({MAX}).",
 ];
 
 export const EmployeeSchema = new mongoose.Schema({
@@ -18,7 +18,7 @@ export const EmployeeSchema = new mongoose.Schema({
   },
   employee_id: {
     type: Number,
-    required: true,
+    required: false,
   },
   joining_date: {
     type: String,
@@ -28,10 +28,12 @@ export const EmployeeSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  rating: { type: Number, min: min, max: max, required: true },  
-  review_request: [{
-    type: Number
-  }],
+  rating: { type: Number, min: min, max: max, required: true },
+  review_request: [
+    {
+      type: Number,
+    },
+  ],
   department: [
     {
       type: String,
@@ -41,5 +43,11 @@ export const EmployeeSchema = new mongoose.Schema({
     type: String,
     required: true,
   },
-  review_comments: [{ name: String, employee_id: Number, rating: Number, comment: String }],
+  photo: {
+    type: String,
+    required: true,
+  },
+  review_comments: [
+    { name: String, employee_id: Number, rating: Number, comment: String },
+  ],
 });

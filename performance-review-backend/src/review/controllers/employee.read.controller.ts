@@ -10,7 +10,7 @@ import {
 import { EmployeeService } from '../services/employee.service';
 import { ValidateObjectId } from '../shared/pipes/validate-object-id.pipes';
 
-@Controller('api/v1/performance/review')
+@Controller('api/v1')
 export class EmployeeReadController {
   constructor(private employeeService: EmployeeService) {}
 
@@ -19,7 +19,7 @@ export class EmployeeReadController {
    * Input: NA
    * Output: Array of objects<Review>
    */
-  @Get('/')
+  @Get('/employees')
   async getEmployees(@Res() res) {
     const employees = await this.employeeService.getEmployees();
     return res.status(HttpStatus.OK).json(employees);
@@ -30,7 +30,7 @@ export class EmployeeReadController {
    * Input: ReviewId
    * Output: single objects<Review>
    */
-  @Get('/:employeeID')
+  @Get('employee/:employeeID')
   async getEmployee(@Res() res, @Param('employeeID', new ValidateObjectId()) employeeID) {
     const employee = await this.employeeService.getEmployee(employeeID);
     if (!employee) {
