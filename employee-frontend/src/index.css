@@ -16,6 +16,11 @@ code {
   text-align: center;
 }
 
+.submit-review {
+  margin-top: 10px;
+  margin-left: 590px;
+}
+
 .form-wrapper {
   width: 500px;
   margin: 0 auto;

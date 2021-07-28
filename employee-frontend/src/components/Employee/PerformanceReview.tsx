@@ -43,6 +43,12 @@ function PerformanceReview() {
                       id="Performance Review"
                       rows={10}
                     ></textarea>
+                    <button
+                      className="btn btn-success submit-review"
+                      type="submit"
+                    >
+                      Submit Feedback
+                    </button>
                   </div>
                 </div>
               </div>
