@@ -16,8 +16,9 @@ prerequisite: Nodejs and MongoDB installed on 27017 (default port)
 * Steps to Start the Application
 1) go to employee-backend
 2) npm Install
-3) npm run migrate:up (This will created seeding data and Schema for you in MongoDB) seeder File: migrations\20210728183114-initial-employee-schema.js
-4) npm run start:dev
+3) npm run migrate:up 
+- (This will created seeding data and Schema for you in MongoDB) seeder File: migrations\20210728183114-initial-employee-schema.js
+5) npm run start:dev
 
 MongoBD schema can be checked here : migrations\20210728183114-initial-employee-schema.js
 
