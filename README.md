@@ -29,7 +29,7 @@ GET http://localhost:5000/api/v1/employee/employeeID  (employeeID eg: MongoEmplo
 
 Postman Collection Export: https://www.getpostman.com/collections/b24961b21ddfcb90b5be
 
-![image](https://user-images.githubusercontent.com/10544557/127395021-24ebeb52-908e-4ce6-864f-c8a5246fff9b.png)
+![image](https://user-images.githubusercontent.com/10544557/127397373-7e5b8f95-e92b-47c2-bb2a-c03c1c5298f0.png)
 
 ## React Application (port 3000)
 
