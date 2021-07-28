@@ -41,25 +41,25 @@ Postman Collection Export: https://www.getpostman.com/collections/b24961b21ddfcb
 Page should load on http://localhost:3000/
 
 **Page 1: Employee View to check all assigned Review**
-** Assumption: **
+**Assumption:**
  - Login Auth Object should have a field to distinguish Admin or General Employee.
  - Check should be done if employee id from Auth object is present in review_request field from DB.
 
 ![image](https://user-images.githubusercontent.com/10544557/127395560-a9583c89-0709-4c17-a509-6f4fc534e116.png)
 
-** Page 2:  Admin can create a new employee.**
-** Assumption: **
+**Page 2:  Admin can create a new employee.**
+**Assumption:**
  - Login Auth Object should have a field to distinguish Admin and only admin should be able to see Create button on the Header
 
 ![image](https://user-images.githubusercontent.com/10544557/127395892-f08e142b-059c-4e02-bfd6-4d9d86eacec0.png)
 
-** Page 3: Employee View if you click on a person it will take you to Review page.**
-** Assumption:**
+**Page 3: Employee View if you click on a person it will take you to Review page.**
+**Assumption:**
  - There should be an update API that takes the object of a employee and appends "review_comments" field from DB.
 
 ![image](https://user-images.githubusercontent.com/10544557/127396185-bbda3c8c-99ef-4746-99f5-f079f30f10eb.png)
 
-** Areas of my strength in descending order:**
+**Areas of my strength in descending order:**
  - Node.js, java Backend
  - React and Typescript
  - Event Driven and Microservice Architectures using RabbitMQ
