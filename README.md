@@ -1,6 +1,7 @@
 # PayPay-Corporation Coding Challenge
 
-Backend - Nodejs, Nestjs, Typescript, Mongoose & MongoDB | Frontend - Reactjs & Typescript  (Amar Pai Fondekar)
+**Backend** - Nodejs, Nestjs, Typescript, Mongoose & MongoDB
+**Frontend** - Reactjs & Typescript  (Amar Pai Fondekar)
 
 **Features Completed:**
 * Backend API for Listing, Details, Create Employee (Note: I have used MongoDB so that i can encapsulate Employee and Performance Review schema in one document, However i am also well versed with relational DB like Postgres, Mysql and Oracle).
