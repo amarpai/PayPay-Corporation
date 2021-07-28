@@ -60,7 +60,7 @@ Page should load on http://localhost:3000/
 **Assumption:**
  - There should be an update API that takes the object of a employee and appends "review_comments" field from DB.
 
-![image](https://user-images.githubusercontent.com/10544557/127396185-bbda3c8c-99ef-4746-99f5-f079f30f10eb.png)
+![image](https://user-images.githubusercontent.com/10544557/127398695-63500f51-6c57-4c82-ad02-1480ac9c737f.png)
 
 **Areas of my strength in descending order:**
  - Node.js, java Backend
