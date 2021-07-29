@@ -63,6 +63,7 @@ Page should load on http://localhost:3000/
 ![image](https://user-images.githubusercontent.com/10544557/127398695-63500f51-6c57-4c82-ad02-1480ac9c737f.png)
 
 **MongoDB Schema**
+
 ![image](https://user-images.githubusercontent.com/10544557/127427444-f6aa6e48-c221-40c0-87be-be47050791ac.png)
 
 
