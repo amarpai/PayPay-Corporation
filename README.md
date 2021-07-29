@@ -68,7 +68,7 @@ Page should load on http://localhost:3000/
 
 
 **Areas of my strength in descending order:**
- - Node.js, java Backend
+ - JavaScript,Node.js & java Backend
  - React and Typescript
- - Event Driven and Microservice Architectures using RabbitMQ
+ - Event Driven & Microservice Architectures using RabbitMQ
  - Python based data crunching. 
